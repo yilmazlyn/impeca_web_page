@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" lang="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/apple-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
+    <title>Impeca Wholesale & Sourcing</title>
+    <script
+      language="JavaScript"
+      src="./scripts/gen_validatorv4.js"
+      type="text/javascript"
+    ></script>
+  </head>
+
+  <body class="text-gray-800 antialiased">
+    <!-- Navbar starts from here-->
+
+    <div
+      class="container flex flex-wrap text-center items-center px-4 mx-auto justify-center"
+    >
+      <nav
+        class="md:justify-between top-0 absolute z-50 flex flex-wrap flex-row navbar-expand-lg text-lg lg:justify-center items-center text-center"
+      >
+        <i
+          id="hamburgerbtn"
+          class="md:hidden bg-purple-800 fas fa-bars lg:hidden text-orange-600 text-xl py-4 px-4 hover:text-white"
+          >Menu</i
+        >
+
+        <ul
+          class="hidden md:flex md:flex-row flex items-center"
+          id="mobileMenu"
+        >
+          <li
+            class="w-full text-center relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start group-hover text-orange-600 hover:underline hover:text-white"
+          >
+            <a
+              class="text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase"
+              href="#wholesale"
+              >Wholesale</a
+            ><button
+              class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              type="button"
+            ></button>
+          </li>
+
+          <li
+            class="text-center block w-full relative flex justify-between lg:w-auto lg:static lg:inline-block lg:justify-start"
+          >
+            <a
+              class="text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-orange-600 no-underline hover:text-white"
+              href="#sourcing"
+              >Sourcing</a
+            ><button
+              class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              type="button"
+            ></button>
+          </li>
+
+          <li></li>
+
+          <li
+            class="w-full text-center relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+          >
+            <h6 class="md:sm:hidden">
+              <a
+                class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+                href="/index.html"
+                ><img src="images/impecaLogoMini.png" alt="impeca mini"
+              /></a>
+            </h6>
+            <button
+              class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              type="button"
+            ></button>
+          </li>
+
+          <li
+            class="w-full text-center relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+          >
+            <a
+              class="text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-orange-600 no-underline hover:text-white"
+              href="#products"
+              >Our Products</a
+            ><button
+              class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              type="button"
+            ></button>
+          </li>
+
+          <li
+            class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+          >
+            <a
+              class="text-md font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-orange-600 no-underline hover:text-white"
+              href="#contact"
+              >Contact</a
+            ><button
+              class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              type="button"
+            ></button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Main under Navbar-->
+    <main>
+      <div
+        class="relative pt-16 pb-32 flex content-center items-center justify-center"
+        style="min-height: 100vh"
+      >
+        <div
+          class="absolute top-0 w-full h-full bg-center bg-cover"
+          style="background-image: url('./images/container.jpg')"
+        >
+          <!--Layout opacity can be set up from here-->
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-75 bg-black"
+          ></span>
+        </div>
+        <div class="container relative mx-auto">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div class="pr-12">
+                <h1 class="text-white font-semibold text-5xl">
+                  SUPPLIED IMPECCABLY
+                </h1>
+                <p class="mt-4 text-lg text-gray-300">
+                  We provide wholesale products and sourcing service to trade
+                  and retail companies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Wholesale section -->
+      <section class="py-20 bg-gray-300" id="wholesale">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px; transform: translateZ(0px)"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <h3 class="text-3xl font-semibold">WHOLESALE DISTRIBUTION</h3>
+                <p
+                  class="ext-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
+                >
+                  Responding to sourcing and supply needs in a fast and
+                  efficient way. Bringing alternative solutions by reaching
+                  different manufacturers and finding the best products.
+                </p>
+                <p
+                  class="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700"
+                >
+                  Our product range goes from plant pots to natural stones.
+                  Wholesale products available in all shapes and sizes. Pots and
+                  planters for garden centres, plant nurseries and plant
+                  wholesalers. All types and sizes of natural stone tiles and
+                  paving. Fill the form below to request a catalogue and get the
+                  latest wholesale price lists.
+                </p>
+                <a
+                  href="#contact"
+                  class="font-bold text-orange-500 hover:text-yellow mt-8"
+                  >REQUEST CATALOGUE</a
+                >
+              </div>
+            </div>
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="./images/stripe1.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Sourcing Section -->
+      <section class="relative block py-24 lg:pt-5" id="sourcing">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px; transform: translateZ(0px)"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="./images/stripe2.jpg"
+              />
+            </div>
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <div
+                  class="text-blue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-3 mt-2 shadow-lg rounded-full bg-orange-500"
+                >
+                  <i class="fas fa-rocket text-xl"></i>
+                </div>
+                <h3 class="text-3xl font-semibold">SOURCING SOLUTIONS</h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                  Responding to sourcing and supply needs in a fast and
+                  efficient way. Bringing alternative solutions by reaching
+                  different manufacturers and finding the best products.
+                </p>
+                <ul class="list-none mt-6">
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-5 px-5 uppercase rounded-full text-blue-600 bg-orange-500 mr-5"
+                          ><i class="fas fa-concierge-bell text-xl"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">
+                          SERVICE: FIND THE MANUFACTURER
+                        </h4>
+                        <p class="mt-4 text-md leading-relaxed text-gray-600">
+                          Specialised in finding the best deals from
+                          distinguished manufacturers. Fast and effective reach;
+                          efficient product delivery. Fill in the contact form
+                          or send us an email and we will get back to you
+                          shortly.
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Products section -->
+      <section class="relative block py-24 bg-gray-300 lg:pt-5" id="products">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px; transform: translateZ(0px)"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-300 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+
+        <div class="flex flex-wrap justify-center text-center mb-24">
+          <div class="w-full lg:w-4/10 px-4">
+            <h2 class="text-4xl font-semibold">PRODUCT RANGE</h2>
+            <p class="text-lg leading-relaxed m-4 text-center text-gray-600">
+              Pots and planters. Made from natural terracotta or durable
+              polypropylene, we provide a wide range of plant pots for garden
+              centres, plant nurseries and online garden stores. Natural Stones.
+              A selection of natural stones: marble, granite, limestone.
+            </p>
+          </div>
+        </div>
+        <div class="container mx-auto px-4">
+          <!--Product Cards-->
+          <div class="flex flex-wrap items-center">
+            <!--Product 1-->
+            <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="lina-silivanova-ywRYbp-6p8c-unsplash"
+                  src="./images/lina-silivanova-ywRYbp-6p8c-unsplash.jpg"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 250px"
+                />
+
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">POTS & PLANTERS</h5>
+                  <p class="mt-1 text-sm text-gray-600 font-semibold">
+                    Quality pots & planters made from terracotta or strong
+                    polypropylene. Request our quatalogue to see all sizes and
+                    shapes available.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Product 2-->
+            <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="charles-deluvio-LyQi9DS7AEg-unsplash"
+                  src="./images/charles-deluvio-LyQi9DS7AEg-unsplash.jpg"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 250px"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">CONSTRUCTION MATERIALS</h5>
+                  <p class="mt-1 text-sm text-gray-600 font-semibold">
+                    Strong and durable wholesale plasterboards supplied in packs
+                    or pallets. Natural stone surfaces and tiles for all kind of
+                    interior design, tiling or pavements.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!--Product 3-->
+            <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="patio heater"
+                  src="./images/achudh-krishna-39mlECY8VkU-unsplash.jpg"
+                  class="shadow-lg rounded max-w-full mx-auto"
+                  style="max-width: 250px"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">ELECTRICAL HEATERS</h5>
+                  <p class="mt-1 text-sm text-gray-600 font-semibold">
+                    Wall mount or free standing infrared electrical heaters.
+                    Patio heater in different shapes and use.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section -->
+      <section class="pb-20 relative block bg-gray-900">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px; transform: translateZ(0px)"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-900 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+          <div class="flex flex-wrap text-center justify-center">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold text-white">
+                WORKING TOGETHER
+              </h2>
+              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                We will be happy to work with you and provide the best service
+                with good quality products.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap mt-12 justify-center">
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <div
+                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+              >
+                <i class="fas fa-medal text-xl"></i>
+              </div>
+              <h6 class="text-xl mt-5 font-semibold text-white">
+                TRUSTED SERVICE
+              </h6>
+              <p class="mt-2 mb-4 text-gray-500">
+                Hassle-free delivery to all over UK. Fast and efficient sourcing
+                service from wide range of manufacturers.
+              </p>
+            </div>
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <div
+                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+              >
+                <i class="fas fa-poll text-xl"></i>
+              </div>
+              <h5 class="text-xl mt-5 font-semibold text-white">GOOD PRICE</h5>
+              <p class="mt-2 mb-4 text-gray-500">
+                Variety of quality wholesale products with competitive prices.
+                Best prices on bulk orders. Contact us to get a quote for the
+                product you are looking for.
+              </p>
+            </div>
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <div
+                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+              >
+                <i class="fas fa-lightbulb text-xl"></i>
+              </div>
+              <h5 class="text-xl mt-5 font-semibold text-white">FRESH IDEAS</h5>
+              <p class="mt-2 mb-4 text-gray-500">
+                Looking for products to sell? Let's think together. Explain us
+                what you have in mind and let's find it for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Form Section -->
+      <section class="relative block py-24 lg:pt-0 bg-gray-900" id="contact">
+        <form
+          method="post"
+          name="myemailform"
+          action="./php-contact/contact.php"
+          id="myform"
+        >
+          <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+              <div class="w-full lg:w-6/12 px-4">
+                <div
+                  class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
+                >
+                  <div class="flex-auto p-5 lg:p-10">
+                    <h4 class="text-2xl font-semibold">CONTACT US</h4>
+                    <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                      Complete the form below and we will get back to you in 24
+                      hours.
+                    </p>
+                    <div class="relative w-full mb-3 mt-8">
+                      <label
+                        class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        for="name"
+                        >Full Name</label
+                      ><input
+                        id="name"
+                        name="name"
+                        type="text"
+                        class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                        placeholder="Full Name"
+                        style="transition: all 0.15s ease 0s"
+                      />
+                    </div>
+                    <div class="relative w-full mb-3">
+                      <label
+                        class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        for="email"
+                        >Email</label
+                      ><input
+                        name="email"
+                        type="email"
+                        id="email"
+                        class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                        placeholder="Email"
+                        style="transition: all 0.15s ease 0s"
+                      />
+                    </div>
+                    <div class="relative w-full mb-3">
+                      <!-- <label
+                        class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                        for="grid-state"
+                      >
+                        Choose subject
+                      </label> -->
+                      <div class="relative w-full mb-3">
+                        <!-- <select
+                          class="px-2 py-2 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                          id="grid-state"
+                        >
+                          <option>...</option>
+                          <option name="wholesale">Wholesale</option>
+                          <option name="sourcing">Sourcing</option>
+                          <option name="support">Support</option>
+                        </select> -->
+                        <div class="relative w-full mb-3 mt-8">
+                          <label
+                            class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                            for="message"
+                            >Message</label
+                          ><textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            cols="80"
+                            class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                            placeholder="Type a message..."
+                          ></textarea>
+                        </div>
+                        <div class="text-center mt-6">
+                          <button
+                            class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                            name="submit"
+                            style="transition: all 0.15s ease 0s"
+                          >
+                            Send Message
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <script language="JavaScript">
+          // Code for validating the form
+          // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+          // for details
+          var frmvalidator = new Validator('myemailform')
+          frmvalidator.addValidation('name', 'req', 'Please provide your name')
+          frmvalidator.addValidation(
+            'email',
+            'req',
+            'Please provide your email'
+          )
+          frmvalidator.addValidation(
+            'email',
+            'email',
+            'Please enter a valid email address'
+          )
+        </script>
+      </section>
+    </main>
+    <footer class="relative bg-gray-300 pt-8 pb-6">
+      <div
+        class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+        style="height: 80px; transform: translateZ(0px)"
+      >
+        <svg
+          class="absolute bottom-0 overflow-hidden"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          version="1.1"
+          viewBox="0 0 2560 100"
+          x="0"
+          y="0"
+        >
+          <polygon
+            class="text-gray-300 fill-current"
+            points="2560 0 2560 100 0 100"
+          ></polygon>
+        </svg>
+      </div>
+      <div class="container mx-auto px-4">
+        <div class="flex flex-wrap">
+          <div class="w-full lg:w-6/12 px-4">
+            <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
+            <h5 class="text-lg mt-0 mb-2 text-gray-700">
+              Find us on any of these platforms, we respond 1-2 business days.
+            </h5>
+            <div class="mt-6">
+              <a href="tel:(+44)7519405052"
+                ><button
+                  class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                >
+                  <i class="flex fa fa-phone"></i></button
+              ></a>
+              <a href="mailto:sales@impeca.co.uk"
+                ><button
+                  class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                >
+                  <i class="flex fa fa-envelope"></i></button
+              ></a>
+              <a
+                href="https://www.linkedin.com/company/impeca-limited"
+                target="_blank"
+                ><button
+                  class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+                  type="button"
+                >
+                  <i class="flex fab fa-linkedin"></i></button
+              ></a>
+            </div>
+          </div>
+          <div class="w-full lg:w-6/12 px-4 mt-6">
+            <div class="flex flex-wrap items-top mb-6">
+              <div class="w-full lg:w-4/12 px-4 ml-auto">
+                <span
+                  class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                  >Useful Informations</span
+                >
+                <ul class="list-unstyled">
+                  <li>
+                    <p
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    >
+                      Company Number: 660208
+                    </p>
+                  </li>
+                  <li>
+                    <p
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                    >
+                      VAT Registration Number: 357028789
+                    </p>
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="tel:0044-75-19-40-50-52"
+                      >(+44) 751 940 50 52</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="w-full lg:w-4/12 px-4">
+                <span
+                  class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                  >Other Resources</span
+                >
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://creative-tim.com/terms"
+                      >Terms &amp; Conditions</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                      href="https://creative-tim.com/privacy"
+                      >Privacy Policy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="my-6 border-gray-400" />
+        <div
+          class="flex flex-wrap items-center md:justify-between justify-center"
+        >
+          <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+            <div class="text-sm text-gray-600 font-semibold py-1">
+              Copyright © 2020 Impeca Limited
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Hamburger Menu script and style -->
+    <style>
+      .active {
+        display: block;
+        background-color: transparent;
+        font-size: small;
+      }
+    </style>
+    <script>
+      let hamburger = document.getElementById('hamburgerbtn')
+
+      let mobileMenu = document.getElementById('mobileMenu')
+
+      hamburger.addEventListener('click', function () {
+        mobileMenu.classList.toggle('active')
+      })
+    </script>
+  </body>
+</html>
